@@ -1,0 +1,405 @@
+.genBoton {
+  background-color: rgb(0, 10, 255);
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(0, 10, 255);
+  padding: 10px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  margin: 50px;
+}
+.genBoton:hover {
+  background-color: #000699;
+  transform: scale(0.9);
+  transition: all 0.05s;
+}
+
+.genFormularios {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px 100px 15px 10px;
+  font-size: 12px;
+}
+.genFormularios:hover {
+  background-color: #fafafa;
+}
+
+.genFooter {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  position: relative;
+  bottom: 0px;
+  left: 0;
+  font-family: "Kadwa", serif;
+  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.45);
+}
+.genFooter .footIzq ul {
+  list-style: none;
+  padding: 0;
+}
+.genFooter .footIzq ul li {
+  margin-top: 7px;
+}
+.genFooter .footIzq ul li a {
+  text-decoration: none;
+  color: black;
+}
+.genFooter .footIzq ul li a:hover {
+  text-decoration: underline;
+}
+
+.genBoton {
+  background-color: rgb(0, 10, 255);
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(0, 10, 255);
+  padding: 10px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  margin: 50px;
+}
+.genBoton:hover {
+  background-color: #000699;
+  transform: scale(0.9);
+  transition: all 0.05s;
+}
+
+.genFormularios {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px 100px 15px 10px;
+  font-size: 12px;
+}
+.genFormularios:hover {
+  background-color: #fafafa;
+}
+
+.genFooter {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  position: relative;
+  bottom: 0px;
+  left: 0;
+  font-family: "Kadwa", serif;
+  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.45);
+}
+.genFooter .footIzq ul {
+  list-style: none;
+  padding: 0;
+}
+.genFooter .footIzq ul li {
+  margin-top: 7px;
+}
+.genFooter .footIzq ul li a {
+  text-decoration: none;
+  color: black;
+}
+.genFooter .footIzq ul li a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+  .login {
+    width: 90%;
+    translate: 5%;
+  }
+  .login .mainLogin img {
+    width: 30%;
+  }
+  .login .mainLogin .titulosLogin h1 {
+    font-size: 30px;
+  }
+  .login .mainLogin .titulosLogin h2 {
+    font-size: 24px;
+  }
+  .login .mainLogin .inputsLogin {
+    font-size: 16px;
+  }
+  .login .mainLogin .botones .opciones {
+    font-size: 16px;
+  }
+  .login .mainLogin .botones .opciones a {
+    font-size: 16px;
+  }
+  .home .heroSection {
+    height: 20vh;
+  }
+  .home .heroSection h1 {
+    top: 10vh;
+    font-size: 30px;
+  }
+  .home .homeInicio .homeArriba ul {
+    width: 90%;
+  }
+  .home .homeInicio .homeArriba ul a {
+    font-size: 16px;
+  }
+  .home .homeInicio .homeAbajo h2 {
+    font-size: 24px;
+  }
+  .home .muestra img {
+    height: 13vh;
+  }
+  .home .mainHome h2 {
+    font-size: 24px;
+  }
+  .home .mainHome .cuadricula {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1vh;
+    row-gap: 2vh;
+  }
+  .home .mainHome .cuadricula .card .arriba img {
+    width: 100%;
+  }
+  .home .mainHome .cuadricula .card .abajo h3 {
+    font-size: 16px;
+  }
+  .home .mainHome .cuadricula .card .abajo p {
+    font-size: 12px;
+  }
+  .genFooter {
+    font-size: 12px;
+    color: rgb(44, 43, 55);
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .genFooter ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .login {
+    width: 30%;
+    translate: 110%;
+  }
+  .login .mainLogin img {
+    width: 35%;
+  }
+  .login .mainLogin .titulosLogin h1 {
+    font-size: 45px;
+  }
+  .login .mainLogin .titulosLogin h2 {
+    font-size: 30px;
+  }
+  .login .mainLogin .botones .opciones a {
+    font-size: 18px;
+  }
+  .home .heroSection {
+    height: 40vh;
+  }
+  .home .heroSection h1 {
+    top: 28vh;
+    font-size: 45px;
+  }
+  .home .homeInicio .homeArriba {
+    width: 20%;
+  }
+  .home .homeInicio .homeArriba a {
+    font-size: 18px;
+  }
+  .home .homeInicio .homeAbajo h2 {
+    font-size: 30px;
+    font-family: "Kadwa";
+  }
+  .home .homeInicio .homeAbajo input {
+    width: 25%;
+  }
+  .home .mainHome h2 {
+    font-size: 30px;
+  }
+  .home .mainHome .cuadricula {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3vw;
+    row-gap: 7vh;
+  }
+  .home .mainHome .cuadricula .card .arriba img {
+    width: 20vw;
+  }
+  .home .mainHome .cuadricula .card .abajo h3 {
+    font-size: 18px;
+  }
+  .home .mainHome .cuadricula .card .abajo p {
+    font-size: 12px;
+  }
+  .genFooter {
+    font-size: 12px;
+  }
+}
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.login {
+  margin-top: 0px;
+  display: flex;
+  height: 99vh;
+}
+.login .mainLogin {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  height: 100%;
+}
+.login .mainLogin .imagenLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .mainLogin .imagenLogin img {
+  margin-top: 15%;
+}
+.login .mainLogin .titulosLogin {
+  text-align: center;
+}
+.login .mainLogin .titulosLogin h1 {
+  font-family: "Junge", cursive;
+  font-weight: 900;
+}
+.login .mainLogin .titulosLogin h2 {
+  font-family: "Kadwa";
+  font-weight: 100;
+}
+.login .mainLogin .inputsLogin {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /*             :first-child{
+                  margin: 15% 0%;
+              } */
+}
+.login .mainLogin .inputsLogin label {
+  margin: 5% 0%;
+}
+.login .mainLogin .botones .opciones {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.login .mainLogin .botones .opciones :first-child {
+  margin-bottom: 20px;
+}
+.login .mainLogin .botones .opciones a {
+  text-decoration: none;
+  color: black;
+}
+.login .mainLogin .botones .opciones a:hover {
+  text-decoration: underline solid black;
+}
+
+.inputsRegister {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 5%;
+}
+.inputsRegister input {
+  margin: 2% 0;
+}
+
+.home {
+  background-color: rgb(202, 202, 202);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.home .heroSection {
+  overflow: hidden;
+  width: 100%;
+  background-image: url(../imagenes/hero72.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.45);
+}
+.home .heroSection h1 {
+  position: relative;
+  color: rgb(233, 233, 233);
+  font-weight: 100;
+}
+.home .homeInicio {
+  position: relative;
+  top: 2vh;
+  width: 100%;
+}
+.home .homeInicio .homeArriba ul {
+  padding-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.home .homeInicio .homeArriba ul li a {
+  color: black;
+  text-decoration: underline;
+}
+.home .homeInicio .homeArriba ul li a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s;
+}
+.home .homeInicio .homeAbajo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .homeInicio .homeAbajo h2 {
+  font-family: "Kadwa", serif;
+  text-align: center;
+}
+.home .muestra {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.45);
+  position: relative;
+  width: 100%;
+  top: 10vh;
+  z-index: 9;
+}
+.home .muestra img {
+  width: 100%;
+}
+.home .mainHome {
+  background-color: rgb(44, 43, 55);
+  position: relative;
+}
+.home .mainHome h2 {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  top: 13vh;
+}
+.home .mainHome .cuadricula {
+  position: relative;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  display: grid;
+  padding: 0 6%;
+}
+.home .mainHome .cuadricula a {
+  text-decoration: none;
+}
+.home .mainHome .cuadricula .card {
+  background-color: rgb(202, 202, 202);
+  width: auto;
+  border-radius: 5px;
+  color: black;
+}
+.home .mainHome .cuadricula .card:hover {
+  background-color: #b1b1b1;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 10, 0.45);
+}
+.home .mainHome .cuadricula .card .abajo {
+  padding: 2% 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

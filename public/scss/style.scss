@@ -1,0 +1,239 @@
+@import "variables";
+@import "extends";
+@import "mediasquery";
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+.login{
+    margin-top: 0px;
+    display: flex;
+    height: 99vh;
+
+    .mainLogin{
+        background-color: $cPrincipal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0px 0px 20px rgb(0, 0, 0) ;
+        height: 100%;
+
+        .imagenLogin{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                margin-top: 15%;
+    
+            }
+        }
+
+        .titulosLogin{
+            text-align: center;
+            h1{
+                font-family: "Junge", cursive;
+                font-weight: 900;
+            }
+            h2{
+                font-family: "Kadwa";
+                font-weight: 100;
+            }
+        }
+
+
+        .inputsLogin{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+
+            label{
+                margin: 5% 0%;
+
+            }
+/*             :first-child{
+                margin: 15% 0%;
+            } */
+        }
+
+        .botones{
+            .opciones{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                :first-child{
+                    margin-bottom: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover{
+                        text-decoration: underline solid black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//REGISTER
+
+.inputsRegister{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+    
+    input{
+        margin: 2% 0;
+    }
+}
+
+
+//HOME
+
+.home{
+    background-color: $cPrincipal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    .heroSection{
+        overflow: hidden;
+        width: 100%;
+        background-image: url(../imagenes/hero72.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0px 5px 20px rgb(0,0,0, 45%) ;
+        h1{
+            position: relative;
+            color: rgb(233, 233, 233);
+            font-weight: 100;
+        }
+    }
+
+    .homeInicio{
+        position: relative;
+        top: 2vh;
+        width: 100%;
+        .homeArriba{
+
+            ul{
+                padding-left: 05%;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+
+                li{
+                    a{
+                        color: black;
+                        text-decoration: underline;
+                        &:hover{
+                            transform: scale(1.2);
+                            transition: all 0.2s;
+                        }
+                    }
+                }
+
+            }
+
+        }
+        .homeAbajo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                font-family: "Kadwa", serif;
+                text-align: center;
+            }
+
+        }
+
+
+    }
+
+    .muestra{
+        box-shadow: 0px 0px 20px 5px rgb(0,0,0, 45%) ;
+        position: relative;
+        width: 100%;
+        top: 10vh;
+        z-index: 9;
+
+        img{
+            width: 100%;
+        }
+
+    }
+
+    .mainHome{
+        background-color: $cMain;
+        position: relative;
+
+        h2{
+            color: white;
+            font-weight: 100;
+            text-align: center;
+            position: relative;
+            top: 13vh;
+        }
+
+
+        .cuadricula{
+            position: relative;
+            margin-top: 20vh;
+            margin-bottom: 10vh;
+            display: grid;
+            padding: 0 6%;
+            a{
+                text-decoration: none;
+            }
+            .card{
+                background-color: $cPrincipal;
+                width: auto;
+                border-radius: 5px;
+                color: black;
+                
+
+                &:hover{
+                    background-color: darken($cPrincipal, 10);
+                    box-shadow: 0px 0px 20px 5px rgb(0,0,10, 45%) ;
+                }
+
+
+                .abajo{
+                    padding: 2% 5%;
+                }
+            }
+        }
+
+
+
+
+//HACER DISENO DE LAS CARTAS Y REPLICARLAS PARA HACER UN GRID
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

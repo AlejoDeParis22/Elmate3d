@@ -1,0 +1,226 @@
+@import "variables";
+@import "extends";
+
+
+// TABLET Y MOBILE
+@media only screen and (max-width:900px){
+    
+
+
+    .login{
+        width: 90%;
+        translate: 5%;
+        
+        .mainLogin{
+            img{
+                width: 30%;
+            }
+
+            .titulosLogin{
+                h1{
+                    font-size: $qTitulo;
+                }
+                h2{
+                    font-size: $qSubtitulo;
+                }
+            }
+
+            .inputsLogin{
+                font-size: $qPrincipal;
+            }
+
+            .botones{
+
+                .opciones{
+                    font-size: $qPrincipal;
+                    a{
+                        font-size: $qPrincipal;
+                    }
+                }
+            }
+        }
+    }
+
+//HOME
+
+    .home{
+        .heroSection{
+            height: 20vh;
+
+            h1{
+                top: 10vh;
+                font-size: $qTitulo;
+            }
+        }
+
+        .homeInicio{
+
+            .homeArriba{
+                ul{
+                    width: 90%;
+                    a{
+                        font-size: $qPrincipal;
+                    }
+                }
+            }
+
+            .homeAbajo{
+                h2{
+                    font-size: $qSubtitulo;
+                }
+            }
+        }
+
+        .muestra{
+            img{
+                height: 13vh;
+            }
+        }
+
+        .mainHome{
+            h2{
+                font-size: $qSubtitulo;
+            }
+
+            .cuadricula{
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 1vh;
+                row-gap: 2vh;
+
+                .card{
+                    .arriba{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .abajo{
+                        h3{
+                            font-size: $qPrincipal;
+                        }
+                        p{
+                            font-size: $qSecundario;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .genFooter{
+        font-size: $qSecundario;
+        color: $cMain;
+        flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+        ul{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+//DESKTOP
+
+@media only screen and (min-width:901px){
+
+    .login{ 
+        width: 30%;
+        translate: 110%;
+
+        .mainLogin{
+            img{
+                width: 35%;
+            }
+
+            .titulosLogin{
+                h1{
+                    font-size: $lTitulo;
+                }
+                h2{
+                    font-size: $lSubtitulo;
+                }
+            }
+
+            .botones{
+                .opciones{
+                    a{
+                        font-size: $lPrincipal;
+                    }
+                }
+            }
+        }
+    }
+
+//HOME
+    .home{
+        .heroSection{
+            height: 40vh;
+            h1{
+                top: 28vh;
+                font-size: $lTitulo;
+            }
+        }
+
+        .homeInicio{
+
+            .homeArriba{
+                width: 20%;
+                a{
+                    font-size: $lPrincipal;
+                }
+            }
+
+            .homeAbajo{
+                h2{
+                    font-size: $lSubtitulo;
+                    font-family: $fontSec;
+                }
+                input{
+                    width: 25%;
+                }
+            }
+        }
+
+        
+        .mainHome{
+            h2{
+                font-size: $lSubtitulo;
+            }
+
+            .cuadricula{
+                grid-template-columns: repeat(4, 1fr);
+                column-gap: 3vw;
+                row-gap: 7vh;
+
+                .card{
+                    .arriba{
+                        img{
+                            width: 20vw;
+                        }
+                    }
+                    .abajo{
+                        h3{
+                            font-size: $lPrincipal;
+                        }
+                        p{
+                            font-size: $lSecundario;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .genFooter{
+        font-size: $lSecundario;
+    }
+}
